@@ -1,3 +1,5 @@
+import { GridCard } from "./components/misc/(home)/grid";
+
 const Home = () => {
   return (
     <div className="p-3">
@@ -17,6 +19,7 @@ const Home = () => {
           <div className="mt-5 text-zinc-600 dark:text-zinc-400">
             If you're into creating, breaking, fixing and understanding stuff in the world of tech, you're in the right place.
           </div>
+          <GridCard/>
       </section>
     </div>
   );
