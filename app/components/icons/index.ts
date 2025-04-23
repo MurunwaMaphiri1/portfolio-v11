@@ -12,3 +12,5 @@ export { default as TypescriptLogo } from "./typescript";
 export { default as ExpressLogo } from "./express";
 export { default as GitLogo } from "./git";
 export { default as NpmLogo } from "./npm";
+export { default as PostmanLogo } from "./postman";
+export { default as Csharp2Logo } from "./csharp2";

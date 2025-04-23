@@ -13,6 +13,8 @@ import {
     ExpressLogo,
     GitLogo,
     NpmLogo,
+    PostmanLogo,
+    Csharp2Logo,
   } from "@/app/components/icons";
   import { cn } from "@/app/lib/utils"
   import type React from "react";
@@ -112,8 +114,8 @@ import {
             <ExpressLogo width="48" height="48"/>
             <GitLogo width="48" height="48"/>
             <NpmLogo width="48" height="48"/>
-        </Marquee>
-        <Marquee className="mt-2" reverse fade pauseOnHover>
+            <PostmanLogo width="48" height="48"/>
+            <Csharp2Logo width="48" height="48"/>
             <ReactLogo width="48" height="48"/>
             <NextLogo width="48" height="48"/>
             <HtmlLogo width="48" height="48"/>
@@ -125,7 +127,25 @@ import {
             <MongoDBLogo width="48" height="48"/>
             <NodeJSLogo width="48" height="48"/>
             <TypescriptLogo width="48" height="48"/>
+            <ExpressLogo width="48" height="48"/>
+            <GitLogo width="48" height="48"/>
+            <NpmLogo width="48" height="48"/>
+            <PostmanLogo width="48" height="48"/>
+            <Csharp2Logo width="48" height="48"/>
         </Marquee>
+        {/* <Marquee className="mt-2" reverse fade pauseOnHover>
+            <ReactLogo width="48" height="48"/>
+            <NextLogo width="48" height="48"/>
+            <HtmlLogo width="48" height="48"/>
+            <CSSLogo width="48" height="48"/>
+            <TailwindLogo width="48" height="48"/>
+            <JavascriptLogo width="48" height="48"/>
+            <CsharpLogo width="48" height="48"/>
+            <PostgreSQLLogo width="48" height="48"/>
+            <MongoDBLogo width="48" height="48"/>
+            <NodeJSLogo width="48" height="48"/>
+            <TypescriptLogo width="48" height="48"/>
+        </Marquee> */}
       </div>
     );
   };
