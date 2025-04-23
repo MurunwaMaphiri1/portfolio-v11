@@ -14,6 +14,10 @@ import {
     GHStats
 } from "./cards/gh-stats"
 
+import {
+    StacksCard
+} from "./cards/stacks-card"
+
 export const GridCard = () => {
     return (
         <>
@@ -23,7 +27,7 @@ export const GridCard = () => {
                     <GHLink />
                     </div>
                     <div className="col-span-3">
-                    <GHStats />
+                    <StacksCard/>
                     </div>
                     {/* <MusicCard /> */}
                 </div>
@@ -37,6 +41,7 @@ export const GridCard = () => {
                         <div className="flex flex-col gap-3 w-full ">
                         {/* <LinksCard /> */}
                         {/* <WakatimeStats /> */}
+                        <GHStats />
                         </div>
                     </div>
 
