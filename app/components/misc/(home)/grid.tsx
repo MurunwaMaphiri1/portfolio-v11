@@ -10,6 +10,10 @@ import {
     BooksCard
 } from "./cards/books-card"
 
+import {
+    GHStats
+} from "./cards/gh-stats"
+
 export const GridCard = () => {
     return (
         <>
@@ -18,8 +22,8 @@ export const GridCard = () => {
                     <div className="col-span-3">
                     <GHLink />
                     </div>
-                    <div className="col-span-2">
-                    {/* <GHStats /> */}
+                    <div className="col-span-3">
+                    <GHStats />
                     </div>
                     {/* <MusicCard /> */}
                 </div>
