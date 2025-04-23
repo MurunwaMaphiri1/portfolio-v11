@@ -10,6 +10,9 @@ import {
     MongoDBLogo,
     NodeJSLogo,
     TypescriptLogo,
+    ExpressLogo,
+    GitLogo,
+    NpmLogo,
   } from "@/app/components/icons";
   import { cn } from "@/app/lib/utils"
   import type React from "react";
@@ -56,13 +59,11 @@ import {
           maskImage: fade
             ? `linear-gradient(${
                 ifToRightOrToBottom(direction)
-                // direction === "left" ? "to right" : "to bottom"
               }, transparent 0%, rgba(0, 0, 0, 1.0) 10%, rgba(0, 0, 0, 1.0) 90%, transparent 100%)`
             : undefined,
           WebkitMaskImage: fade
             ? `linear-gradient(${
                 ifToRightOrToBottom(direction)
-                // direction === "left" ? "to right" : "to bottom"
               }, transparent 0%, rgba(0, 0, 0, 1.0) 10%, rgba(0, 0, 0, 1.0) 90%, transparent 100%)`
             : undefined,
         }}
@@ -73,10 +74,13 @@ import {
             className={cn(
               "flex shrink-0 justify-around gap-4 [--gap:1rem]",
               direction === "left"
-                ? "animate-marquee-left flex-row"
-                : "animate-marquee-up flex-col",
+                ? reverse
+                  ? "animate-marquee-left-reverse flex-row"
+                  : "animate-marquee-left flex-row"
+                : reverse
+                  ? "animate-marquee-up-reverse flex-col"
+                  : "animate-marquee-up flex-col",
               pauseOnHover && "group-hover:[animation-play-state:paused]",
-              reverse && "direction-reverse",
             )}
             data-testid={`marquee-child-${i + 1}`}
           >
@@ -105,6 +109,9 @@ import {
             <MongoDBLogo width="48" height="48"/>
             <NodeJSLogo width="48" height="48"/>
             <TypescriptLogo width="48" height="48"/>
+            <ExpressLogo width="48" height="48"/>
+            <GitLogo width="48" height="48"/>
+            <NpmLogo width="48" height="48"/>
         </Marquee>
         <Marquee className="mt-2" reverse fade pauseOnHover>
             <ReactLogo width="48" height="48"/>

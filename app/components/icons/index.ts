@@ -9,3 +9,6 @@ export { default as PostgreSQLLogo } from "./postgresql";
 export { default as MongoDBLogo } from "./mongodb";
 export { default as NodeJSLogo } from "./nodejs";
 export { default as TypescriptLogo } from "./typescript";
+export { default as ExpressLogo } from "./express";
+export { default as GitLogo } from "./git";
+export { default as NpmLogo } from "./npm";
