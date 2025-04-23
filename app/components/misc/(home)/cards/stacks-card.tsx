@@ -1,5 +1,15 @@
 import {
     ReactLogo,
+    NextLogo,
+    HtmlLogo,
+    CSSLogo,
+    TailwindLogo,
+    JavascriptLogo,
+    CsharpLogo,
+    PostgreSQLLogo,
+    MongoDBLogo,
+    NodeJSLogo,
+    TypescriptLogo,
   } from "@/app/components/icons";
   import { cn } from "@/app/lib/utils"
   import type React from "react";
@@ -85,32 +95,29 @@ import {
         </p> */}
         <Marquee className="" fade pauseOnHover>
             <ReactLogo width="48" height="48"/>
-          {/* <IconTypescript width="48" height="48" />
-          <IconTailwindcss width="48" height="48" />
-          <IconNextJS width="48" height="48" />
-          <IconReactJS width="48" height="48" />
-          <IconPython width="48" height="48" />
-          <IconPostgres width="48" height="48" />
-          <VscodeIconsFileTypeCpp3 width="48" height="48" />
-  
-          <SkillIconsGolang width="48" height="48" />
-          <SkillIconsGraphqlDark width="48" height="48" />
+            <NextLogo width="48" height="48"/>
+            <HtmlLogo width="48" height="48"/>
+            <CSSLogo width="48" height="48"/>
+            <TailwindLogo width="48" height="48"/>
+            <JavascriptLogo width="48" height="48"/>
+            <CsharpLogo width="48" height="48"/>
+            <PostgreSQLLogo width="48" height="48"/>
+            <MongoDBLogo width="48" height="48"/>
+            <NodeJSLogo width="48" height="48"/>
+            <TypescriptLogo width="48" height="48"/>
         </Marquee>
         <Marquee className="mt-2" reverse fade pauseOnHover>
-          <DeviconElixir width="48" height="48" />
-          <SkillIconsDocker width="48" height="48" />
-          <LogosArchlinux width="48" height="48" />
-          <SkillIconsGodotLight width="48" height="48" />
-  
-          <IconPrisma width="48" height="48" />
-          <IconMySQL width="48" height="48" />
-          <IconFirebase width="48" height="48" />
-          <IconFigma width="48" height="48" />
-          <IconGit width="48" height="48" />
-          <IconVite width="48" height="48" />
-          <IconCloudflare width="48" height="48" />
-          <IconJest width="48" height="48" />
-          <IconNodeJS width="48" height="48" /> */}
+            <ReactLogo width="48" height="48"/>
+            <NextLogo width="48" height="48"/>
+            <HtmlLogo width="48" height="48"/>
+            <CSSLogo width="48" height="48"/>
+            <TailwindLogo width="48" height="48"/>
+            <JavascriptLogo width="48" height="48"/>
+            <CsharpLogo width="48" height="48"/>
+            <PostgreSQLLogo width="48" height="48"/>
+            <MongoDBLogo width="48" height="48"/>
+            <NodeJSLogo width="48" height="48"/>
+            <TypescriptLogo width="48" height="48"/>
         </Marquee>
       </div>
     );
