@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto_Condensed } from "next/font/google";
+import { Geist, Geist_Mono, Roboto_Condensed, Inter } from "next/font/google";
 import "./globals.css";
-import  Header  from "@/app/components/layouts/header"
+import  Header  from "@/app/components/layouts/header";
+import Image from "next/image";
+import gradientImg from "@/public/images/gradient.webp"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +19,11 @@ const robotsoCondensed = Roboto_Condensed({
   variable: "--font-robotso-condensed",
   subsets: ["latin"],
 });
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"]
+})
 
 export const metadata: Metadata = {
   title: "Murunwa's Portfolio",
@@ -38,6 +45,13 @@ export default function RootLayout({
           <Header />
           {children}
         </div>
+        <Image
+              className="absolute left-0 md:left-1/2 top-0 -z-10 -translate-x-1/2 lg:scale-100 object-cover w-full"
+              src={gradientImg}
+              role="presenation"
+              alt="Gradient background"
+              priority
+            />
       </div>
       </body>
     </html>

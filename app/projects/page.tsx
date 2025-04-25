@@ -1,9 +1,9 @@
 "use client";
 
 import React from 'react';
-import ProjectCard from '@/app/components/layouts/ProjectCard'; // Assuming this is the path to your ProjectCard component
+import ProjectCard from '@/app/components/layouts/ProjectCard'; 
 
-// Define the project item type
+
 type ProjectItem = {
   id: number;
   name: string;
@@ -15,7 +15,7 @@ type ProjectItem = {
   image: string;
 }
 
-// Your project data
+
 const projectItems: ProjectItem[] = [
   {
     id: 1,
@@ -64,7 +64,15 @@ const projectItems: ProjectItem[] = [
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-20 py-10">
+        <div className="flex flex-col gap-20 py-10">
+                    <div className=''>
+                <h1 className='font-bold text-xl'>
+                    Projects
+                </h1>
+                <p className='mt-2 text-[#707070]'>
+                    stuff i've worked on in my spare time
+                </p>
+        </div>
       {projectItems.map((project, index) => (
         <ProjectCard
           key={project.id}

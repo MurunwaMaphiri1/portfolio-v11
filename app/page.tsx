@@ -2,7 +2,7 @@ import { GridCard } from "./components/misc/(home)/grid";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <section className="md:mt-8 lg:mt-10 pt-8 pb-16 max-w-2xl mx-auto">
           <h1 className="mt-0 mb-1 text-xl font-medium dark:text-white">
             murunwa
