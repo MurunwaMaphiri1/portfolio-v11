@@ -64,7 +64,7 @@ const projectItems: ProjectItem[] = [
 
 export default function Projects() {
   return (
-        <div className="flex flex-col gap-20 py-10">
+        <div className="flex flex-col gap-20 py-10 max-w-2xl mx-auto">
                     <div className=''>
                 <h1 className='font-bold text-xl'>
                     Projects

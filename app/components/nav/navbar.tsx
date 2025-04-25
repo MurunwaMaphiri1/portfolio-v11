@@ -3,7 +3,9 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChartNoAxesGantt, Menu } from "lucide-react";
+import { Menu, FolderGit, NotebookPen, UserRound } from "lucide-react";
+import  Navmenu  from "./navmenu";
+import { useState } from "react";
 
 type navItems = {
   name: string;
@@ -18,6 +20,11 @@ const navItems: navItems = [
 
 const NavBar = () => {
   const path = usePathname();
+  const [isOpen, setIsOpen] = useState(true);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="flex items-center justify-between w-full">
@@ -48,12 +55,23 @@ const NavBar = () => {
       </nav>
       
       {/* Hamburger Menu Icon (ChartNoAxesGantt) */}
-      <button 
+      {/* <button onClick={() => Navmenu}
         className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
         aria-label="Menu"
       >
         <Menu className="w-5 h-5" />
-      </button>
+      </button> */}
+      <div className="flex flex-row gap-4">
+        <a href="/aboutme">
+          <UserRound height={20} width={20}/>
+        </a>
+        <a href="/notes">
+          <NotebookPen height={20} width={20}/>
+        </a>
+        <a href="/projects">
+          <FolderGit height={20} width={20}/>
+        </a>
+      </div>
     </div>
   );
 };
