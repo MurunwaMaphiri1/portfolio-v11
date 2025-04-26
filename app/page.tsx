@@ -1,4 +1,6 @@
 import { GridCard } from "./components/misc/(home)/grid";
+import Image from 'next/image';
+import avatar from "@/public/images/WhatsApp Image 2025-03-15 at 20.43.46_b3585cc1.png"
 
 const Home = () => {
   return (
