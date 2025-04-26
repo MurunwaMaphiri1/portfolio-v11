@@ -7,7 +7,7 @@ export const BooksCard = () => {
   return (
     <Link href="/books">
       {" "}
-      <div className=" mt-3 w-full h-[7.5rem] rounded-lg   overflow-hidden relative hover:scale-95 duration-500 transform-gpu">
+      <div className=" w-full h-[9rem] rounded-lg   overflow-hidden relative hover:scale-95 duration-500 transform-gpu">
         {/* <p className=" ml-3 py-1 font-semibold text-xl">Books</p> */}
         <Image
           src={books}

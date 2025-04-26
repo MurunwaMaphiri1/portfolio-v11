@@ -21,43 +21,24 @@ import {
 export const GridCard = () => {
     return (
         <>
-            <div>
-                <div className="grid md:grid-cols-6 grid-cols-3 mt-8 gap-3">
-                    <div className="col-span-3">
+            <div className="grid grid-cols-6 gap-3 mt-8">
+                {/* First row */}
+                <div className="col-span-6 md:col-span-3">
                     <GHLink />
-                    </div>
-                    <div className="col-span-3">
-                    <StacksCard/>
-                    </div>
-                    {/* <MusicCard /> */}
                 </div>
-
-                <div className="grid md:grid-cols-6 grid-cols-3 mt-3">
-                    <div className="flex flex-col col-span-3">
-                    <div className="flex gap-3">
-                        <div className="w-24">
-                        <AnimeLinkCard />
-                        </div>
-                        <div className="flex flex-col gap-3 w-full ">
-                        {/* <LinksCard /> */}
-                        {/* <WakatimeStats /> */}
-                        <GHStats />
-                        </div>
-                    </div>
-
-                    <div className="cols-span-3 ">
-                        {/* <StacksCard /> */}
-                    </div>
-                    </div>
-
-                    <div className="col-span-3 md:ml-3">
-                    <div className="flex gap-3 ">
-                        {/* <DCStatus /> */}
-
-                        {/* <ImagesCard /> */}
-                    </div>
+                <div className="col-span-6 md:col-span-3">
+                    <StacksCard/>
+                </div>
+                
+                {/* Second row */}
+                <div className="col-span-2 md:col-span-1">
+                    <AnimeLinkCard />
+                </div>
+                <div className="col-span-4 md:col-span-2">
+                    <GHStats />
+                </div>
+                <div className="col-span-6 md:col-span-3 h-full">
                     <BooksCard />
-                    </div>
                 </div>
             </div>
         </>

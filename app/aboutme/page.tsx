@@ -1,6 +1,4 @@
-import p1 from '@/../../public/images/photo1.jpg'
-import p2 from '@/../../public/images/photo2.jpg'
-import p3 from '@/../../public/images/photo3.jpg'
+
 import Link from 'next/link'
 import avatar from "@/public/images/about-me-section/Me.png"
 import avatar2 from "@/public/images/about-me-section/Me & My Sister.jpg"
@@ -12,12 +10,12 @@ export default function AboutMe() {
 
     return (
         <>
-            <section className="pb-3 pt-8 md:mt-8 md:pb-16 lg:mt-10 max-w-2xl mx-auto min-h-screen">
+            <section className="pb-3 pt-8 md:mt-8 md:pb-16 lg:mt-10 max-w-3xl mx-auto min-h-screen">
                 <div className="flex items-end gap-5 mb-5">
                     <h1 className="text-4xl font-bold tracking-tight">About Me</h1>
                 </div>
                 <div className="group space-y-5 leading-relaxed">
-                    <div className='flex flex-row w-full justify-between'>
+                    {/* <div className='flex flex-row w-full gap-4'>
                         <Image
                             src={avatar}
                             alt='Picture of me'
@@ -37,9 +35,9 @@ export default function AboutMe() {
                             alt='Me and my friends'
                             height={80}
                             width={80}
-                            className='h-[25%] w-[45%] rounded-2xl object-cover md:h-[250px] md:w-[200px] md: hidden'
+                            className='h-[25%] w-[45%] rounded-2xl object-cover md:h-[250px] md:w-[200px] md:hidden'
                         />
-                    </div>
+                    </div> */}
                     <p>
                     Hey there! I&apos;m Murunwa Maphiri, a{' '}
                     {Math.floor(

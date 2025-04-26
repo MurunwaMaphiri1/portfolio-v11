@@ -41,17 +41,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <div className="container max-w-3xl mx-auto min-h-screen flex flex-col px-4 py-5">
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <Header />
           {children}
         </div>
-        <Image
+        {/* <Image
               className="absolute left-0 md:left-1/2 top-0 -z-10 -translate-x-1/2 lg:scale-100 object-cover w-full"
               src={gradientImg}
               role="presenation"
               alt="Gradient background"
               priority
-            />
+            /> */}
       </div>
       </body>
     </html>
