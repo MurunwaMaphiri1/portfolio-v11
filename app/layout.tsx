@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${geistSans.variable} ${geistMono.variable}`}
       >
       <div className="container max-w-3xl mx-auto min-h-screen flex flex-col px-4 py-5">
         <div className="flex-1 w-full">
