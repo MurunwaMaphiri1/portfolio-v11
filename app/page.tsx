@@ -17,7 +17,6 @@ const Home = () => {
                 Full Stack Developer
               </div>
           </div>{' '}
-
         </div>
         <section className="mt-8 text-zinc-600 dark:text-zinc-400">
         <div className="space-y-5 text-left">
@@ -25,10 +24,13 @@ const Home = () => {
             I'm the type of person who loves building cool things with code—whether it's a clean React UI, a solid backend with .NET or diving deep into Spring Boot and PostgreSQL. I'm constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
           </p>
           <p>
-            Beyond coding, I'm drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design. When I'm not coding, you'll probably find me tweaking a project, watching anime/football or gaming.
+            I fell in love with tech at the age of 13 and since then I've never looked back. From installing custom roms from xda developers to hacking games using Lucky Patcher, I was obsessed with figuring out how things worked behind the screen. That curiosity turned into a passion and it's what turned me into the person I am today. It’s what drives me to keep learning every day.
           </p>
           <p>
-            If you're into creating, breaking, fixing and understanding stuff in the world of tech, you're in the right place.
+            I'm drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design. When I'm not coding, you'll probably find me tweaking a project, watching anime/football or gaming.
+          </p>
+          <p>
+            If you're into creating, breaking and fixing stuff, you're in the right place.
           </p>
         </div>
         </section>

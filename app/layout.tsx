@@ -45,13 +45,13 @@ export default function RootLayout({
           <Header />
           {children}
         </div>
-        {/* <Image
+        <Image
               className="absolute left-0 md:left-1/2 top-0 -z-10 -translate-x-1/2 lg:scale-100 object-cover w-full"
               src={gradientImg}
               role="presenation"
               alt="Gradient background"
               priority
-            /> */}
+            />
       </div>
       </body>
     </html>

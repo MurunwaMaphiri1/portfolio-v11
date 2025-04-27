@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const extractDate = (dateString: string | number | Date) =>
-  new Date(dateString).toLocaleDateString("en-US", {
+  new Date(dateString).toLocaleDateString("en-ZA", {
     day: "numeric",
     month: "short",
     year: "numeric",
