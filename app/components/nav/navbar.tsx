@@ -1,10 +1,6 @@
 "use client";
-
-import { motion } from "framer-motion";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Menu, FolderGit, NotebookPen, FileUser } from "lucide-react";
-import { useState } from "react";
+import { FolderGit, FileUser } from "lucide-react";
 import Logo from "../icons/Logo";
 
 

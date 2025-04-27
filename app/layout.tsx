@@ -15,11 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const robotsoCondensed = Roboto_Condensed({
-  variable: "--font-robotso-condensed",
-  subsets: ["latin"],
-});
-
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"]
