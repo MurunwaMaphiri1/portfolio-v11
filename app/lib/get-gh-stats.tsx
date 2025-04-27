@@ -1,7 +1,10 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { octokit } from "./octokit";
-import { unstable_cache as cache } from "next/cache";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { unstable_cache } from "next/cache";
 
-export const getGHStats = cache(
+
+export const getGHStats = unstable_cache(
   async () => {
     const gql = String.raw;
     const { user } = await octokit.graphql<{
