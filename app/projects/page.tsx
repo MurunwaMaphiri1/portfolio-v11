@@ -45,7 +45,7 @@ const projectItems: ProjectItem[] = [
       "MongoDB",
       "NodeJS"
     ],
-    image: "/images/project-videos/E-commerce app.png",
+    image: "/images/project-videos/e-commerce app.png",
   },
   {
     id: 3,
