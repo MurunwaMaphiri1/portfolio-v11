@@ -1,5 +1,5 @@
 import { GridCard } from "./components/misc/(home)/grid";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const Home = () => {
   return (
