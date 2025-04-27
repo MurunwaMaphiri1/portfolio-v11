@@ -1,5 +1,4 @@
 import { GridCard } from "./components/misc/(home)/grid";
-// import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -20,16 +19,16 @@ const Home = () => {
         <section className="mt-8 text-zinc-600 dark:text-zinc-400">
         <div className="space-y-5 text-left">
           <p>
-            I'm the type of person who loves building cool things with code—whether it's a clean React UI, a solid backend with .NET or diving deep into Spring Boot and PostgreSQL. I'm constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
+            I&apos;m the type of person who loves building cool things with code—whether it&apos;s a clean React UI, a solid backend with .NET or diving deep into Spring Boot and PostgreSQL. I&apos;m constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
           </p>
           <p>
-            I fell in love with tech at the age of 13 and since then I've never looked back. From installing custom roms from xda developers to hacking games using Lucky Patcher, I was obsessed with figuring out how things worked behind the screen. That curiosity turned into a passion and it's what turned me into the person I am today. It’s what drives me to keep learning every day.
+            I fell in love with tech at the age of 13 and since then I&apos;ve never looked back. From installing custom roms from xda developers to hacking games using Lucky Patcher, I was obsessed with figuring out how things worked behind the screen. That curiosity turned into a passion and it&apos;s what turned me into the person I am today. It&apos;s what drives me to keep learning every day.
           </p>
           <p>
-            I'm drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design. When I'm not coding, you'll probably find me tweaking a project, watching anime/football or gaming.
+            I&apos;m drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design. When I&apos;m not coding, you&apos;ll probably find me tweaking a project, watching anime/football or gaming.
           </p>
           <p>
-            If you're into creating, breaking and fixing stuff, you're in the right place.
+            If you&apos;re into creating, breaking and fixing stuff, you&apos;re in the right place.
           </p>
         </div>
         </section>

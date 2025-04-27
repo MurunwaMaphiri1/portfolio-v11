@@ -70,7 +70,7 @@ export default function Projects() {
                     Projects
                 </h1>
                 <p className='mt-2 text-[#707070]'>
-                    stuff i've worked on in my spare time
+                    stuff i&apos;ve worked on in my spare time
                 </p>
         </div>
       {projectItems.map((project, index) => (
