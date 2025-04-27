@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto_Condensed, Inter } from "next/font/google";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import  Header  from "@/app/components/layouts/header";
 import Image from "next/image";

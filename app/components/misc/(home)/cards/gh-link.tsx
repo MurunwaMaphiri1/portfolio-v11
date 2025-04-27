@@ -32,7 +32,7 @@ export const GHLink = () => {
       </span>
       <span className="space-y-0.5 px-6 pb-6">
         <span className="block font-semibold">GitHub</span>
-        <span className="block text-sm">Projects I've worked on in my spare time</span>
+        <span className="block text-sm">Projects I&apos;ve worked on in my spare time</span>
       </span>
     </a>
   );
