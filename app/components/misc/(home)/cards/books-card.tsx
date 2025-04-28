@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const BooksCard = () => {
   return (
-    <Link href="/books">
+    <Link href="#">
       {" "}
       <div className=" w-full h-[9rem] rounded-lg   overflow-hidden relative hover:scale-95 duration-500 transform-gpu">
         {/* <p className=" ml-3 py-1 font-semibold text-xl">Books</p> */}
