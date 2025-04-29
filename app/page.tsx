@@ -2,7 +2,7 @@ import { GridCard } from "./components/misc/(home)/grid";
 
 const Home = () => {
   return (
-    <div className="flex flex-col max-w-3xl">
+    <div className="flex flex-col max-w-2xl">
       <section className="pb-3 pt-8 md:mt-8 md:pb-16 lg:mt-10 w-full">
         <div className="flex flex-col items-start justify-start gap-5 md:flex-row md:items-center md:justify-between">
           {' '}
@@ -25,7 +25,7 @@ const Home = () => {
             I fell in love with tech at the age of 13 and since then I&apos;ve never looked back. From installing custom roms from xda developers to hacking games using Lucky Patcher, I was obsessed with figuring out how things worked behind the screen. That curiosity turned into a passion and it&apos;s what turned me into the person I am today. It&apos;s what drives me to keep learning every day.
           </p>
           <p>
-            I&apos;m drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design. When I&apos;m not coding, you&apos;ll probably find me tweaking a project, watching anime/football or gaming.
+            I&apos;m drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design.
           </p>
           <p>
             If you&apos;re into creating, breaking and fixing stuff, you&apos;re in the right place.
