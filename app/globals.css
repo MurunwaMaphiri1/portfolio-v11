@@ -64,5 +64,21 @@ body {
   animation: marquee-up-reverse 10s linear infinite;
 }
 
+@keyframes rotate-album-art {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-album-art {
+  animation: rotate-container 2s infinite linear; /* Adjust duration and other properties as needed */
+}
+
 
 
