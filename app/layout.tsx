@@ -4,7 +4,6 @@ import "./globals.css";
 import  Header  from "@/app/components/layouts/header";
 import Image from "next/image";
 import gradientImg from "@/public/images/gradient.webp"
-import Footer from "./components/layouts/footer";
 import NowPlaying from "./components/shared/NowPlaying";
 
 const geistSans = Geist({
