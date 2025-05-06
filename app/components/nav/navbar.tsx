@@ -20,7 +20,7 @@ const NavBar = () => {
         <a href="/projects">
           <FolderGit height={20} width={20}/>
         </a>
-        <a href="./Resume/Murunwa Maphiri Fullstack Developer CV (3).pdf" download>
+        <a href="./Resume/Murunwa Maphiri Fullstack Developer CV (2) (1).pdf" download>
           <FileUser height={20} width={20}/>
         </a>
       </div>
