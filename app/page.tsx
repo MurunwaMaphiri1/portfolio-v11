@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="flex flex-col max-w-2xl">
       <section className="pb-3 pt-8 md:mt-8 md:pb-16 lg:mt-10 w-full">
-      <BlurFade delay={0.25} inView>
+      <BlurFade delay={0.25}>
         <div className="flex flex-col items-start justify-start gap-5 md:flex-row md:items-center md:justify-between">
           {' '}
           <div>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         </BlurFade>
         <section className="mt-8 text-zinc-600 dark:text-zinc-400">
-        <BlurFade delay={0.25 * 2} inView>
+        <BlurFade delay={0.25 * 2}>
         <div className="space-y-5 text-left">
           <p>
             I&apos;m the type of person who loves building cool things with code—whether it&apos;s a clean React UI, a solid backend with .NET or diving deep into Spring Boot and PostgreSQL. I&apos;m constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         </BlurFade>
         </section>
-        <BlurFade delay={0.25 * 3} inView>
+        <BlurFade delay={0.25 * 3}>
           <GridCard/>
         </BlurFade>
       </section>
