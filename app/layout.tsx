@@ -5,6 +5,7 @@ import  Header  from "@/app/components/layouts/header";
 import Image from "next/image";
 import gradientImg from "@/public/images/gradient.webp"
 import NowPlaying from "./components/shared/NowPlaying";
+import { ThemeProvider } from "@/app/components/shared/theme-provider"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${geistSans.variable} ${geistMono.variable}`}
       >
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
       <div className="container max-w-2xl mx-auto min-h-screen flex flex-col px-4 py-5">
         <div className="flex-1 w-full">
           <Header />
@@ -49,6 +56,7 @@ export default function RootLayout({
               priority
             />
       </div>
+      </ThemeProvider>
       </body>
       <div className="max-w-2xl mx-auto flex flex-col px-4 py-5">
       <NowPlaying/>
