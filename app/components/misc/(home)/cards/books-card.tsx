@@ -1,4 +1,4 @@
-import books from "@/public/images/kobe(2).jpg";
+import books from "@/public/images/Futaba Sakura coding.gif";
 import { Quote } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,8 +16,8 @@ export const BooksCard = () => {
         />
         <div className="px-4 py-2 text-white text-md font-[500]">
           <Quote className="rotate-180" />
-          <p className="text-m ">Everything negative - pressure, challenges - is all an opportunity for me to rise.</p>
-          <span className="text-white/85 flex justify-end">― Kobe Bryant</span>
+          <p className="text-sm ">Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</p>
+          <span className="text-white/85 flex justify-end text-sm">― Patrick McKenzie</span>
         </div>
       </div>
     </Link>
