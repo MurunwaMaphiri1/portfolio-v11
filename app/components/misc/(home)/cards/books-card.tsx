@@ -1,4 +1,4 @@
-import books from "@/public/images/Futaba Sakura coding.gif";
+import books from "@/public/images/Futaba-Sakura.jpg";
 import { Quote } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
