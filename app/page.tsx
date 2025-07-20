@@ -14,7 +14,7 @@ const Home = () => {
                 Murunwa Maphiri
               </h1>
               <div className="max-w-[58ch] text-zinc-600 dark:text-zinc-400">
-                Full Stack Developer
+                Web Developer
               </div>
           </div>{' '}
         </div>
@@ -23,14 +23,14 @@ const Home = () => {
         <BlurFade delay={0.25 * 2}>
         <div className="space-y-5 text-left">
           <p>
-            I&apos;m the type of person who loves building cool things with code—whether it&apos;s a clean React UI, a solid backend with .NET or diving deep into Spring Boot and PostgreSQL. I&apos;m constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
+            I&apos;m the type of person who loves building cool things with code—whether it&apos;s a clean React UI or a solid backend with .NET. I&apos;m constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time).
           </p>
           <p>
             I fell in love with tech at the age of 13 and since then I&apos;ve never looked back. From installing custom roms from xda developers to hacking games using Lucky Patcher, I was obsessed with figuring out how things worked behind the screen. That curiosity turned into a passion and it&apos;s what turned me into the person I am today. It&apos;s what drives me to keep learning every day.
           </p>
-          <p>
+          {/* <p>
             I&apos;m drawn to how things work under the hood. I enjoy exploring computer networks, working with APIs and reading up on system design.
-          </p>
+          </p> */}
           <p>
             If you&apos;re into creating, breaking and fixing stuff, you&apos;re in the right place.
           </p>
