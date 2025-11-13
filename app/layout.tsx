@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Source_Code_Pro, Fira_Code } from "next/font/google";
 import "./globals.css";
 import  Header  from "@/app/components/layouts/header";
 import Image from "next/image";
@@ -20,6 +20,18 @@ const geistMono = Geist_Mono({
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"]
+});
+
+const sourceCodePro = Source_Code_Pro({
+  variable: "--font-source-code-pro",
+  subsets: ["latin"],
+  weight: "400"
+})
+
+const firaCode = Fira_Code({
+  variable: "--font-fira-code",
+  subsets: ["latin"],
+  weight: "300"
 })
 
 export const metadata: Metadata = {
@@ -35,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${geistSans.variable} ${geistMono.variable}`}
+        className={`${inter.variable} ${firaCode.variable} ${sourceCodePro.variable} ${geistSans.variable} ${geistMono.variable}`}
       >
       <ThemeProvider
             attribute="class"
